@@ -33,15 +33,20 @@ select`[]🚀 节点选择`[]🇨🇳 台湾节点`
 EOF
 
 #####################################################
+# 定义生成的文件名
+#####################################################
+file=hellcat.ini
+
+#####################################################
 # 抓取ACL4SSR_Online_Full_MultiMode
 #####################################################
-curl https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_MultiMode.ini > hellcat.ini
+curl https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_MultiMode.ini > $file
 
 #####################################################
 # 执行插入指令
 #####################################################
-sed -i "/$VAR1/r VAR1" hellcat.ini
-sed -i "/$VAR2/r VAR2" hellcat.ini
+sed -i "/$VAR1/r VAR1" $file
+sed -i "/$VAR2/r VAR2" $file
 
 #####################################################
 # 执行替换指令
@@ -50,11 +55,13 @@ checkPoint=0
 fromText=""
 cat replaceText|while read line
 do
+  line=${line//\[/\\[}
+  line=${line//\//\\/}
   if [ $checkPoint -eq "0" ]; then
         fromText=$line
         checkPoint=1
   else
-        sed -i "s/${fromText//\[/\\[}/${line//\[/\\[}/g" hellcat.ini
+        sed -i "s/${fromText}/${line}/g" $file
         checkPoint=0
   fi
 done
