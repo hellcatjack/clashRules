@@ -32,6 +32,8 @@ custom_proxy_group=🎶 网易音乐
 ;custom_proxy_group=🎶 网易音乐
 ruleset=🎶 网易音乐,https://
 ;ruleset=🎶 网易音乐,https://
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+ruleset=📢 谷歌FCM,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
 EOF
 
 #####################################################
