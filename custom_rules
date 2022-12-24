@@ -28,10 +28,6 @@ select`[]🚀 节点选择`[]🇨🇳 台湾节点`
 游戏平台`select`[]🚀 节点选择`[]DIRECT
 节点选择`select`[]♻️ 自动选择`[]
 节点选择`select`[]♻️ 自动选择`[]🏰 常规自动`[]
-custom_proxy_group=🎶 网易音乐
-;custom_proxy_group=🎶 网易音乐
-ruleset=🎶 网易音乐,https://
-;ruleset=🎶 网易音乐,https://
 EOF
 
 #####################################################
