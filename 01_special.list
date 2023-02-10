@@ -1,6 +1,11 @@
 # 内容：special
-# 数量：3条
+# 数量：8条
 
 DOMAIN-SUFFIX,vultr.com
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,tmobile.com
+DOMAIN-SUFFIX,lib.rus.ec
+DOMAIN-SUFFIX,limetorrents.info
+DOMAIN-SUFFIX,solidtorrents.to
+DOMAIN-SUFFIX,libgen.rs
+DOMAIN-SUFFIX,limetorrents.lol
