@@ -1,5 +1,5 @@
 # 内容：special
-# 数量：8条
+# 数量：9条
 
 DOMAIN-SUFFIX,vultr.com
 DOMAIN-SUFFIX,msftconnecttest.com
@@ -9,3 +9,4 @@ DOMAIN-SUFFIX,limetorrents.info
 DOMAIN-SUFFIX,solidtorrents.to
 DOMAIN-SUFFIX,libgen.rs
 DOMAIN-SUFFIX,limetorrents.lol
+DOMAIN-SUFFIX,chatpdf.com
