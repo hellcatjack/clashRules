@@ -1,5 +1,5 @@
 # 内容：special
-# 数量：18条
+# 数量：20条
 
 DOMAIN-SUFFIX,vultr.com
 DOMAIN-SUFFIX,msftconnecttest.com
@@ -19,3 +19,5 @@ DOMAIN-SUFFIX,minecrafteduservices.com
 DOMAIN-SUFFIX,minecraft-services.net
 DOMAIN-SUFFIX,minecraft.net
 DOMAIN-SUFFIX,rocketcdn.me
+DOMAIN-SUFFIX,skyscnr.com
+DOMAIN-SUFFIX,px-cdn.net
